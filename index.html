@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Emon Hosen">
+    <meta name="description" content="CabHub | Taxi Services: A seamless PSD to HTML conversion project designed to provide a modern, responsive, and user-friendly interface for a taxi service website. The project showcases clean code, efficient layout, and an intuitive design, enhancing the user experience for booking and managing taxi services.">
+    <meta name="keywords" content="EmonHosen, CabHub, TaxiServices, PSDToHTML, WebDesign, FrontendDevelopment, ResponsiveDesign, HTML, CSS, WebDevelopment, GitHubProjects">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CabHub | Taxi Services Company</title>
+      <!--
+        #CabHub #TaxiServices #PSDToHTML #WebDesign #FrontendDevelopment #ResponsiveDesign #HTML #CSS #WebDevelopment #GitHubProjects
+        -->
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <!-- fontawesome -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css">
+    <!-- stylesheet -->
+     <link rel="stylesheet" href="assets/css/style.css">
+     <!-- responsive css -->
+      <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+    <!-- Header Start -->
+     <header class="header">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg" id="navBar">
+                <a href="index.html" class="navbar-brand">
+                    <img src="assets/img/cabHub-logo.png" alt="cabHub-logo">
+                </a>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar_menu"><i class="fa-solid fa-bars"></i></button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbar_menu">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a href="index.html" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#about" class="nav-link">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#future" class="nav-link">Futures</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#app" class="nav-link">Order Now</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contact" class="nav-link">Contacts</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+     </header>
+     <!-- /Header End -->
+    <!-- Hero Start -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero_text">
+                <h2>Book Cab Now</h2>
+                <p class="phone">+123 456 789</p>
+                <img src="assets/img/taxi.png" alt="" id="taxi_img">
+            </div>
+        </div>
+    </section>
+    <!-- ./Hero End -->
+    <!-- About Start -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-7 col-md-6">
+                    <div class="about_text">
+                        <h3>Best In City</h3>
+                        <h1>Trusted Cab Services in New York</h1>
+                        <p>Quisque sollicitudin feugiat risus, eu posuere ex euismod eu. Phasellus hendrerit, massa efficitur dapibus pulvinar, sapien eros sodales ante, euismod aliquet nulla metus a mauris.Quisque sollicitudin feugiat risus, eu posuere ex euismod eu. Phasellus hendrerit, massa efficitur dapibus pulvinar, sapien eros sodales ante, euismod aliquet nulla metus a mauris.</p>
+                        <a href="#" class="about_btn">Read More</a>
+                    </div>
+                </div><!-- ./col -->
+                <div class="col-xl-5 col-md-6">
+                    <div class="card">
+                         <p class="card_head">Book A <span>Cab</span></p>
+                         <form action="#" class="cab_form">
+                            <input type="text" placeholder="Name">
+                            <input type="phone" placeholder="+1 888 234 5678">
+                            <input type="text" placeholder="When">
+                            <input type="text" placeholder="Time">
+                            <input type="text" placeholder="Start">
+                            <input type="text" placeholder="End">
+                            <input type="text" id="vehicle" placeholder="Choose Vehicle">
+                            <button type="submit" class="submit_btn">Submit</button>
+                         </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /About End -->
+    <!-- Tarif Start -->
+    <section class="tarif" id="future">
+        <div class="container">
+            <div class="section_title">
+                <h2><span class="color_text">Our</span> <br> Tarif</h2>
+            </div><!-- /section_title --> 
+            <div class="row" style="margin-top: 80px;">
+                <div class="col-xl-4 col-md-6">
+                    <div class="tarif_card">
+                        <img src="assets/img/small-taxi.png" alt="Tarif Taxi" class="small_taxi">
+                        <h4>Economy Class</h4>
+                        <p>Quisque sollicitudin feugiat risus, eu posuere ex euismod eu. Phasellus hendrerit, massa efficitur.</p>
+                        <p class="economy_num">$1,5/mi</p>
+                        <a href="#" class="tarif_btn">Read More</a>
+                    </div>
+                </div><!-- /col -->
+                <div class="col-xl-4 col-md-6">
+                    <div class="tarif_card active">
+                        <img src="assets/img/small-taxi.png" alt="Tarif Taxi" class="small_taxi">
+                        <h4>Standard Class</h4>
+                        <p>Quisque sollicitudin feugiat risus, eu posuere ex euismod eu. Phasellus hendrerit, massa efficitur.</p>
+                        <p class="economy_num">$1,5/mi</p>
+                        <a href="#" class="tarif_btn">Read More</a>
+                        <div class="active_star"><i class="fa-solid fa-star"></i></div>
+                    </div>
+                </div><!-- /col -->
+                <div class="col-xl-4 col-md-6">
+                    <div class="tarif_card">
+                        <img src="assets/img/small-taxi.png" alt="Tarif Taxi" class="small_taxi">
+                        <h4>Standard Class</h4>
+                        <p>Quisque sollicitudin feugiat risus, eu posuere ex euismod eu. Phasellus hendrerit, massa efficitur.</p>
+                        <p class="economy_num">$1,5/mi</p>
+                        <a href="#" class="tarif_btn">Read More</a>
+                    </div>
+                </div><!-- /col -->
+            </div>
+        </div>
+    </section>
+     <!-- /Tarif End -->
+    <!-- we-do-best Start -->
+    <section class="we_do">
+        <div class="container">
+            <div class="section_title">
+                <h2 class="wedo_title"><span class="color_text">We do Best</span><br>Than You Wish</h2>
+            </div><!-- /section_title -->
+            <div class="row" style="margin-top: 50px;">
+                <div class="col-xl-6 col-md-6">
+                    <div class="wedo_box">
+                        <div class="wedo_icon">
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="wedo_text">
+                        <h5>Home Picup</h5>
+                        <p>Quisque sollicitudin feugiat risus, eu posuere ex euismod eu. Phasellus hendrerit, massa efficitur.</p>
+                        </div>
+
+                    </div>
+                </div><!-- /col -->
+                <div class="col-xl-6 col-md-6">
+                    <div class="wedo_box">
+                        <div class="wedo_icon">
+                            <i class="fa-solid fa-hourglass-end"></i>
+                        </div>
+                        <div class="wedo_text">
+                        <h5>Fast Booking</h5>
+                        <p>Quisque sollicitudin feugiat risus, eu posuere ex euismod eu. Phasellus hendrerit, massa efficitur.</p>
+                        </div>
+
+                    </div>
+                </div><!-- /col -->
+                <div class="col-xl-6 col-md-6">
+                    <div class="wedo_box">
+                        <div class="wedo_icon">
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="wedo_text">
+                        <h5>Bonuses For Ride</h5>
+                        <p>Quisque sollicitudin feugiat risus, eu posuere ex euismod eu. Phasellus hendrerit, massa efficitur.</p>
+                        </div>
+
+                    </div>
+                </div><!-- /col -->
+                <div class="col-xl-6 col-md-6">
+                    <div class="wedo_box">
+                        <div class="wedo_icon">
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="wedo_text">
+                        <h5>GPS Searching</h5>
+                        <p>Quisque sollicitudin feugiat risus, eu posuere ex euismod eu. Phasellus hendrerit, massa efficitur.</p>
+                        </div>
+
+                    </div>
+                </div><!-- /col -->
+                
+            </div><!-- /row -->
+            <div class="wedo_btn">
+                <a href="#">Read More</a>
+            </div>
+        </div>
+    </section>
+    <!-- we do best End -->
+    <!-- download app start-->
+     <section class="download_app" id="app">
+        <div class="container">
+            <div class="section_title">
+                <h2><span class="color_text">Download</span><br>Best Cap Services</h2>
+            </div>
+            <div class="row">
+                <div class="col-xl-6 col-md-6">
+                    <div class="app_text">
+                        <h4>Download the Cab voucher app free! Get Exciting New Offers</h4>
+                        <p>Quisque sollicitudin feugiat risus, eu posuere ex euismod eu. Phasellus hendrerit, massa efficitur.</p>
+                    </div>
+                    <div class="app_btn">
+                        <a href="#"><img src="assets/img/google-play.png" alt=""></a>
+                        <a href="#"><img src="assets/img/apple.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-md-6">
+                    <div class="app_img">
+                        <img src="assets/img/phone.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+    <!-- download app End-->
+    <!-- Testimonials Start -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section_title">
+                <h2 class="testimonials_title"><span class="color_text">Happy Client's</span><br>Testimonials</h2>
+            </div>
+            <div class="row" style="margin-top: 50px;">
+                <div class="col-xl-6 col-md-6">
+                    <div class="testimonial_text">
+                        <p>Quisque sollicitudin feugiat risus, eu posuere ex euismod eu. Phasellus hendrerit, massa efficitur.Quisque sollicitudin feugiat risus.</p>
+                        <div class="client_img">
+                            <img src="assets/img/client-img.jpg" alt="">
+                            <div class="client_name">
+                                <h6>John Doe</h6>
+                                <p>Business Man</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-md-6">
+                    <div class="testimonial_text">
+                        <p>Quisque sollicitudin feugiat risus, eu posuere ex euismod eu. Phasellus hendrerit, massa efficitur.Quisque sollicitudin feugiat risus.</p>
+                        <div class="client_img">
+                            <img src="assets/img/client-img.jpg" alt="">
+                            <div class="client_name">
+                                <h6>John Doe</h6>
+                                <p>Business Man</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- call to action start -->
+    <section class="call_to_action">
+        <div class="container">
+            <div class="call_to_action_text">
+            <p>We are Ready to Take Your Call 24 Hours, 7 Days!</p>
+            <p class="num">+123 4567 8900</p>
+            </div>
+        </div>
+    </section>
+    <!-- /call to action End -->
+    <!-- footer start -->
+    <footer class="footer" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-4 col-md-6">
+                    <div class="about_cab">
+                        <div class="footer_title">
+                            <h3>About Cab Hub</h3>
+                        </div>
+                        <p>Quisque sollicitudin feugiat risus, eu posuere ex euismod eu. Phasellus hendrerit, massa efficitur.Quisque sollicitudin feugiat risus, eu posuere ex euismod eu.</p>
+                        <div class="about_cab_social">
+                            <a href="#"><i class="fab fa-facebook"></i></a>
+                            <a href="#"><i class="fab fa-google-plus"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div><!-- /col -->
+                <div class="col-xl-4 col-md-6">
+                    <div class="download_cab">
+                        <div class="footer_title">
+                            <h3>Download</h3>
+                        </div>
+                        <p>Quisque sollicitudin feugiat risus, eu posuere ex euismod eu. Phasellus hendrerit, massa efficitur.Quisque sollicitudin feugiat risus</p>
+                        <div class="cab_download_btn">
+                            <a href="#"><i class="fa-brands fa-android"></i> Android User</a>
+                            <a href="#"><i class="fa-brands fa-apple"></i> Ios User</a>
+                        </div>
+                </div>
+            </div><!-- ./col -->
+            <div class="col-xl-4 col-md-6">
+                <div class="cab_contact">
+                    <div class="footer_title">
+                        <h3>Contact</h3>
+                    </div>
+                    <div class="cab_contact_add">
+                        <ul>
+                            <li><i class="fa-solid fa-location-dot"></i> +123, Main Street, Your City,New York, USA 789456</li>
+                            <li><i class="fa-solid fa-phone"></i> +1 123 456 7891</li>
+                            <li><i class="fa-solid fa-envelope"></i> contact@cabhub.com</li>
+                        </ul>
+                    </div>
+                </div>
+            </div><!-- ./col -->
+        </div>
+        </div>
+        <div class="footer_copyright">
+            <div class="container">
+                <strong>All right reserved by &copy; Emon Hosen</strong> <a href="https://psdfreebies.com/">Credit by psd freebies</a>
+            </div>
+        </div>
+    </footer>
+    <button type="button" class="goTop"><i class="fa-solid fa-arrow-up"></i></button>
+    <!-- js -->
+    <!-- jquery cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+     <!-- bootstrap js -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.min.js"></script>
+    <!-- custom js-->
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
